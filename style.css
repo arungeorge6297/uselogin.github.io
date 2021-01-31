@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    font-family: 'Exo', 'sans-serif','serif';
+}
+
+#authentication{
+    height: 100vh;
+    background-color: #423c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#auth-form{
+    background-color: #6f4a7d;
+    width: 50%;
+    padding: 40px;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#username{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#password{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#submit{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: black;
+    color: white;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}

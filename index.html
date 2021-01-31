@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section id="authentication">
+        <form id="auth-form" action="/" method="GET" autocomplete="off" onsubmit="submitHandler()">
+            <h1 >User Login</h1>
+            <div class="form-group">
+                <label for="username">Username</label><br/>
+                <input type="text" name="username" id="username" onkeyup="usernameHandler()"><br/>
+                <div id="username-msg" style="color: white;"></div>
+            </div>
+            <div class="form-group">
+                <label for="passwird">Password</label><br/>
+                <input type="password" name="password" id="password" onkeyup="passwordHandler()"><br/><br>
+                <div id="password-msg" style="color: white;"></div>
+            </div>
+            <input type="submit" value="SUBMIT" id="submit">
+        </form>
+    </section>
+    <script src="./script.js"></script>
+    <!-- <script>
+        alert('hello');
+    </script> -->
+    
+
+</body>
+</html>
